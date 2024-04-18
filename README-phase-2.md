@@ -8,7 +8,7 @@ the `secretNumber` to be chosen at random. To do this, we'll utilize the
 a decimal number between 0 and 1 (excluding 1). For example:
 
 ```javascript
-console.log(Math.random()); // 0.5719957072947224
+console.log(Math.floor(Math.random()*100)); // 0.5719957072947224
 console.log(Math.random()); // 0.08590173924968769
 console.log(Math.random()); // 0.0965770175443883
 ```
